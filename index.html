@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebrex</title>
+    <link rel="stylesheet" href="psd.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  </head>
+
+  <body onload="textWriter()">
+    <header>
+
+      <div class="header__logo deep">
+        <h1>BEBREX</h1>
+      </div>
+
+      <nav>
+
+        <div class="topnav" id="myTopnav">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Portfolio</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contactf">Contact</a>
+
+          <a class="icon" id="menu">&#9776;</a>
+        </div>
+
+      </nav>
+
+    </header>
+
+
+    <main>
+      <div class="main__welcome">
+        <h1>Welcome to the</h1>
+
+          <svg viewBox="0 0 1000 100">
+            <symbol id="s-text">
+              <text text-anchor="middle" x="50%" y="80%">BEBREX</text>
+            </symbol>
+
+            <g class = "g-ants">
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+              <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+          </svg>
+          <div class="flexrow">
+            <div class="vline"></div>
+            <p>We are digital agency with years of experience and extraordinary people</p>
+          </div>
+
+      </div>
+
+      <section class="container-white">
+        <div class="wrapper">
+          <div class="main__about" id="about">
+            <div class="about__left">
+              <img class="mw-100" src="./images/spaceman.jpeg" alt="spaceman">
+            </div>
+
+            <div class="about__right">
+              <h1>Some words <b>about us</b></h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Vivamus quis tellus condimentum, gravida odio eu, ullamcorper tellus.</p>
+                 <ul>
+                    <li><b>Mission</b> - <i>We deliver uniqueness and quality</i></li>
+                    <li><b>Skills</b> - <i>Delivering fast and excellent results</i></li>
+                    <li><b>Clients</b> - <i>Satisfied clients thanks to our experience</i></li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container-black">
+        <div class="wrapper">
+          <div class="main__team">
+              <h1>our team</h1>
+              <div class="line"></div>
+
+              <div class="team__cards">
+
+                <div class="card">
+                  <div class="photo"></div>
+                  <h4>Lex Bale</h4>
+                  <p class="position">CEO</p>
+                  <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="card">
+                  <div class="photo"></div>
+                  <h4>Leon Fonci</h4>
+                  <p class="position">Senior DevOps</p>
+                  <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="card">
+                  <div class="photo"></div>
+                  <h4>Mariia Atucci</h4>
+                  <p class="position">Marketer</p>
+                  <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="card">
+                  <div class="photo"></div>
+                  <h4>George Mont</h4>
+                  <p class="position">GameDev TL</p>
+                  <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-white">
+        <div class="wrapper">
+          <div class="main__services" id="services">
+            <h1>our services</h1>
+            <div class="line"></div>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut aliquam purus sit amet luctus venenatis. Felis eget velit aliquet sagittis. Suspendisse in est ante in nibh mauris cursus mattis. Tellus id interdum velit laoreet id donec ultrices tincidunt.</p>
+
+            <div class="services__cards">
+
+              <div class="services__card">
+                <img class="mw-50" src="./images/www.png" alt="hosting, www">
+                <h4>Hosting</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+              <div class="services__card">
+                <img class="mw-50" src="./images/home.jpeg" alt="home, IoT">
+                <h4>IoT</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+              <div class="services__card">
+                <img class="mw-50" src="./images/link.jpeg" alt="link, share">
+                <h4>Maintenance</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+              <div class="services__card">
+                <img class="mw-50" src="./images/cli.jpeg" alt="cli, command line">
+                <h4>Pen. Testing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="container-black">
+        <div class="wrapper">
+          <div class="main__clients">
+            <h1>some of <b>our clients</b></h1>
+            <div class="line"></div>
+
+            <div class="clients__list">
+                <img src="./images/gucci.png" alt="Gucci">
+                <img src="./images/champion.png" alt="Champion">
+                <img src="./images/oakley.png" alt="Oakley">
+                <img src="./images/converse.png" alt="Converse, Allstar">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container-white">
+        <div class="wrapper">
+          <div class="main__gallery" id="gallery">
+            <h1>take a look at <b>our work</b></h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.</p>
+
+              <div class="gallery__grid">
+                <div class="gallery__line">
+                  <img src="./images/v_female.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/v_female.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/v_female.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/v_female.jpeg" alt="Cyberpunk, 2077, V">
+                </div>
+                <div class="gallery__line">
+                  <img src="./images/logo.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/logo.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/logo.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/logo.jpeg" alt="Cyberpunk, 2077, V">
+                </div>
+                <div class="gallery__line">
+                  <img src="./images/v-male.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/v-male.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/v-male.jpeg" alt="Cyberpunk, 2077, V">
+                  <img src="./images/v-male.jpeg" alt="Cyberpunk, 2077, V">
+                </div>
+              </div>
+
+            <p></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-black">
+          <div class="wrapper">
+            <div class="main__testimonials" id="testimonials">
+              <h1><b>our clients'</b> testimonials</h1>
+              <div class="line"></div>
+
+              <p class="quote">this book is a treatise on the theory of ethics, very popular during the renaissance. The first line of lorem ipsum: "lorem ipsum dolor sit amet...", comes from a line is section 1.10.32.</p>
+              <p class="author"><b>Lex Bale</b>, CEO BEBREX Inc.</p>
+            </div>
+          </div>
+      </section>
+
+
+      <section class="container-white">
+        <div class="wrapper">
+          <div class="main__contactus" id="contact">
+            <h1>contact us</h1>
+            <div class="line"></div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <form method="POST" action="#">
+
+              <div class="row-dir">
+                <div class="col-dir">
+                  <label for="name" >Name</label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+
+                <div class="col-dir">
+                  <label for="email">Email address</label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+              </div>
+
+              <div class="col-dir">
+                <label for="message">Message</label>
+                <textarea name="message" cols="30" rows="10" id="message" required></textarea>
+              </div>
+
+
+              <div class="button">
+                <button type="submit">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Submit
+                </button>
+              </div>
+
+
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container-black">
+        <div class="footer__medialinks">
+          <a href=""><img src="./images/facebook-brands.svg" alt="Facebook"></a>
+          <a href=""><img src="./images/twitter-brands.svg" alt="Twitter"></a>
+          <a href=""><img src="./images/google-plus-brands.svg" alt="Google Plus"></a>
+          <a href=""><img src="./images/linkedin-in-brands.svg" alt="LinkedIn"></a>
+        </div>
+
+
+      </div>
+    </footer>
+
+
+    <script src="psd.js"></script>
+  </body>
+</html>
